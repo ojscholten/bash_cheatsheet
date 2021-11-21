@@ -13,3 +13,7 @@ do
   echo "$x"
 done
 
+# checking conditions
+if (( x < y )) then
+  echo "x is less than y"
+fi
