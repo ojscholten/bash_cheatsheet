@@ -14,6 +14,12 @@ do
 done
 
 # checking conditions
-if (( x < y )) then
+if (( x < y ))
+then
   echo "x is less than y"
+fi
+
+if [ "$input" = "Y" ] || [ "$input" = "Y" ]
+then
+  echo "yes"
 fi
