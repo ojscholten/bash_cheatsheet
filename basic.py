@@ -1,3 +1,6 @@
+# variable declaration
+x = "hello"
+
 # function definition
 def function(args):
   return "this is a function"
@@ -10,3 +13,7 @@ else:
   
 # list comprehension
 numbers = [ x for x in range(10)]
+
+# list sorting
+ascending = sorted(numbers)
+descending = sorted(numbers, reverse=True)
