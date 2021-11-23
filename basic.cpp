@@ -22,3 +22,12 @@ if (x == y){
 else{
   cout << "haw"; 
 }
+
+// arrays
+int n = 10;
+int arr[n];
+// vectors
+vector<int> numbers;
+// array of vectors
+vector<int> numbers[n];
+
