@@ -14,6 +14,8 @@ cin >> y;
 
 // print to console
 cout << x << endl;
+// printing can get really advanced with things like
+cout << setprecision(2) << scientific << showpos << setw(15) << right;
 
 // conditionals
 if (x == y){
