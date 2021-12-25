@@ -1,0 +1,28 @@
+regular expressions notes
+
+special characters:
+{ } [ ] / \ + * . $ ^ | ?
+
+
+character symbols:
+\d - digits (equal to [0-9])
+\w - words (letters, numbers, and underscores)
+\s - space character
+
+counter symbols:
+* - any number of occurances (including zero)
+? - one or more occurances
+
+lookaheads:
+(?=html) - matches things with 'html' after
+(?!html) - matches things without 'html' after
+
+lookbehinds:
+(?<=www) - matches things with 'www' before
+(?<!www) - matches things without 'www' before
+
+flags:
+after a regular expression, flags can be set which tell the engine how to go through the text.
+/g - global flag, match everything in the text as if it's one big blob
+/gm - global and multiline, take the entire text and match line by line
+/gmi - global, multiline, and case insensitive
